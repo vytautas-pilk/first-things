@@ -14,6 +14,6 @@ def password_generator():
 	'_', '-']
 	password = ''
 	while len(password) != 13:
-		password = password + random.choice(symbols)
+		password += random.choice(symbols)
 	
 	return password
